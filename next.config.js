@@ -11,6 +11,10 @@ const nextConfig = withStoreConfig({
     remotePatterns: [
       {
         protocol: "http",
+        hostname: "apparel-admin.up.railway.app",
+      },
+      {
+        protocol: "https",
         hostname: "localhost",
       },
       {
